@@ -1,0 +1,44 @@
+.main-button {
+    margin: 0px 0px;
+    width: 200px;
+    height: 60px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #ffea00;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border-radius: 2px;
+}
+
+.logo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-button {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.main-button:after {
+    content: "👉";
+    position: absolute;
+    opacity: 0;  
+    top: 4px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.main-button:hover {
+    padding-right: 24px;
+    padding-left:8px;
+    
+}
+
+.main-button:hover::after {
+    opacity: 1;
+    right: 10px;
+}

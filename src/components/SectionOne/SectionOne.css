@@ -1,0 +1,37 @@
+.sectionOneContainer{
+    background-color: rgb(255,255,102);
+    background-image: url('../../img/section-one.png');
+    height: 90vh;
+    width: 100%;
+    margin-top:45px;
+
+}
+.sectionone{
+    
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+
+}
+.sectionone h1 {
+    font-size: 130px;
+    margin-top: 200px;
+    margin-left:100px ;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .sectionone
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+        margin-top: 0px;
+    }
+    .sectionone h1 {
+        font-size: 30px;
+        padding-top: 50%;
+    }
+  }

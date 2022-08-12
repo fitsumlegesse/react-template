@@ -1,0 +1,31 @@
+.sectionTwoContainer{
+    height: 90vh;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.section-two-left{
+    background-color: white;
+    float: left;
+    height: 100%;
+    width: 50%;
+    margin-top: 0;
+    background-image: url('../../img/sectio-2-left-bg.png');
+}
+.section-two-right {
+    background-color: green;
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-image: url('../../img/section-two-rigth.png');
+}
+
+
+@media screen and (max-width: 600px) {
+    .sectiontwoone
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+  }
