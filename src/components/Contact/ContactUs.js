@@ -1,12 +1,13 @@
 import React from 'react'
 import './ContactUs.css'
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import Stack from '@mui/material/Stack';
 import Button from '../Button/Button';
 import InputBox from '../Input/InputBox'
+import { useState } from 'react';
 
 const ContactUs = () => {
+     const [name, setName] = useState("")
+     const [phone, setPhone] = useState("")
+     const [email, setEmail] = useState("")
   return (
     <div className='contact-container'>
         <div className='contact-parent'>

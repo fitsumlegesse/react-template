@@ -5,6 +5,7 @@ import About from './pages/About.js'
 import Contact from './pages/Contact.js'
 import Login from './pages/Login';
 import Trial from './pages/Trial';
+import SignUp from './components/SignUpForm/SignUpForm';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp/>}/>
           <Route path="/trial" element={<Trial />} />
   
         </Routes>

@@ -8,7 +8,7 @@
     padding: 0;
     /* overflow: hidden; */
     align-items: center;
-    background-color: rgb(255,255,102);
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,7 +23,7 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -31,7 +31,7 @@ ul.topnav li a {
 ul.topnav li.right {float: right;}
 
 li a:hover {
-    background-color: white;
+    background-color: grey;
 }
 
 

@@ -1,19 +1,16 @@
-.login-parent {
+.signup-parent {
     background-color: white;
     width: 100%;
     height:70vh;
     position: absolute;
 }
-
-.login-left{
+.signup-left{
     background-color: whitesmoke;
     /* background-image: url('../../img/signin-wallpaper.png'); */
-    /* border: black solid 1px; */
     width: 600px;
     height: 600px;
     margin-left: 600px;
     margin-top: 90px;
-    /* align-items: center; */
     box-shadow: 20px 20px 10px 10px grey;
     align-items: center;
     padding-left: 135px;

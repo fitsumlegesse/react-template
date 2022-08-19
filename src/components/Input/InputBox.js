@@ -5,7 +5,7 @@ const InputBox = (props) => {
   return (
   
     <div class="group">
-          <input type={props.type} placeholder={props.label} required />
+          <input type={props.type} placeholder={props.label}  required />
           <span class="highlight"></span>
           <span class="bar"></span>
     </div>
